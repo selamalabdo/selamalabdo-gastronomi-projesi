@@ -79,4 +79,5 @@ Hocanın belirttiği tüm kriterler `iletisim.html` içerisinde uygulanmıştır
 
 ```
 ## 🌐Canlı Demo
-Projeyi tarayıcıda görüntülemek için aşağıdaki bağlantıya tıklayabilirsiniz: 👉[Lezzet Dünyası - Demo](https://selamalabdo.github.io/selamalabdoWeb/anasayfa.html)
+Projeyi tarayıcıda görüntülemek için aşağıdaki bağlantıya tıklayabilirsiniz: 👉[Lezzet Dünyası - Demo](https://selamalabdo.github.io/selamalabdoWeb/)
+
