@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lezzet Dünyası - Tarifler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+<h1><a href="anasayfa.html" class="logo-link"></i> Lezzet Dünyası</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="anasayfa.html">Ana Sayfa</a></li>
+                    <li><a href="tarifler.html" class="active">Tarifler</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2>Lezzetli Tarifler</h2>
+        
+        <div class="recipe-grid">
+            <article id="firinda-sebzeli-tavuk" class="recipe-card">
+                    <div class="recipe-badge">Popüler</div>
+                <img src="img/yemek1.jpg" alt="Fırında Sebzeli Tavuk">
+                <h3>Fırında Sebzeli Tavuk</h3>
+                <div class="recipe-summary">
+                    <p><strong>Malzemeler:</strong> Tavuk göğsü, patates, havuç, biber, zeytinyağı, baharatlar</p>
+                    <p><strong>Süre:</strong> 45 dakika</p>
+                </div>
+                <div class="recipe-details">
+                    <h4>Yapılışı:</h4>
+                    <ol>
+                        <li>Tavuk göğsünü kuşbaşı doğrayın.</li>
+                        <li>Sebzeleri iri parçalar halinde doğrayın.</li>
+                        <li>Tüm malzemeyi bir kaba alıp zeytinyağı ve baharatlarla karıştırın.</li>
+                        <li>200 derece fırında 35-40 dakika pişirin.</li>
+                        <li>Sıcak olarak servis yapın.</li>
+                    </ol>
+                    <p><strong>Püf Noktası:</strong> Tavukların daha yumuşak olması için 30 dakika önceden marine edebilirsiniz.</p>
+                </div>
+                <button class="show-more-btn" onclick="toggleRecipeDetails(this)">Daha Fazla Göster</button>
+            </article>
+
+            <article id="kremali-mantarii-makarna" class="recipe-card">
+                    <div class="recipe-badge">Yeni</div> 
+                <img src="img/yemek2.jpg" alt="Kremalı Mantarlı Makarna">
+                <h3>Kremalı Mantarlı Makarna</h3>
+                <div class="recipe-summary">
+                    <p><strong>Malzemeler:</strong> Spagetti, mantar, krema, sarımsak, tuz, karabiber</p>
+                    <p><strong>Süre:</strong> 25 dakika</p>
+                </div>
+                <div class="recipe-details">
+                    <h4>Yapılışı:</h4>
+                    <ol>
+                        <li>Makarnayı haşlayın.</li>
+                        <li>Zeytinyağında ince doğranmış sarımsak ve mantarları soteleyin.</li>
+                        <li>Kremayı ekleyip kısık ateşte 5 dakika pişirin.</li>
+                        <li>Haşlanmış makarnayı ekleyip karıştırın.</li>
+                        <li>Tuz ve karabiberle tatlandırıp servis yapın.</li>
+                    </ol>
+                    <p><strong>Püf Noktası:</strong> Üzerine rendelenmiş parmesan ekleyebilirsiniz.</p>
+                </div>
+                <button class="show-more-btn" onclick="toggleRecipeDetails(this)">Daha Fazla Göster</button>
+            </article>
+
+            <article id="cikolatali-sufle" class="recipe-card">
+                    <div class="recipe-badge">Özel</div>
+                <img src="img/yemek3.jpg" alt="Çikolatalı Sufle">
+                <h3>Çikolatalı Sufle</h3>
+                <div class="recipe-summary">
+                    <p><strong>Malzemeler:</strong> Bitter çikolata, yumurta, şeker, un, tereyağı</p>
+                    <p><strong>Süre:</strong> 30 dakika</p>
+                </div>
+                <div class="recipe-details">
+                    <h4>Yapılışı:</h4>
+                    <ol>
+                        <li>Çikolatayı benmari usulü eritin ve tereyağını ekleyin.</li>
+                        <li>Yumurta sarılarını ve şekeri çırpıp çikolatalı karışıma ekleyin.</li>
+                        <li>Yumurta akını ayrı bir kapta katılaşana kadar çırpın.</li>
+                        <li>Yavaşça çikolatalı karışıma ekleyin.</li>
+                        <li>Yağlanmış kalıplara döküp 200 derece fırında 10-12 dakika pişirin.</li>
+                    </ol>
+                    <p><strong>Püf Noktası:</strong> Fırından çıkar çıkmaz hemen servis yapın.</p>
+                    <h4>Besin Değerleri (1 porsiyon):</h4>
+                    <ul>
+                        <li>Kalori: 320 kcal</li>
+                        <li>Karbonhidrat: 35g</li>
+                        <li>Protein: 5g</li>
+                        <li>Yağ: 18g</li>
+                    </ul>
+                </div>
+                <button class="show-more-btn" onclick="toggleRecipeDetails(this)">Daha Fazla Göster</button>
+            </article>
+            <article id="akdeniz-salatasi" class="recipe-card">
+                <div class="recipe-badge">Hafif</div>
+                <img src="img/yemek4.jpg" alt="Akdeniz Salatası">
+                <h3>Renkli Akdeniz Salatası</h3>
+                <div class="recipe-summary">
+                    <p><strong>Malzemeler:</strong> Roka, marul, çeri domates, beyaz peynir, ceviz, nar ekşisi</p>
+                    <p><strong>Süre:</strong> 15 dakika</p>
+                </div>
+                <div class="recipe-details">
+                    <h4>Yapılışı:</h4>
+                    <ol>
+                        <li>Tüm yeşillikleri sirkeli suda yıkayıp kurulayın.</li>
+                        <li>Domatesleri ikiye bölün, peynirleri küp küp doğrayın.</li>
+                        <li>Geniş bir kasede malzemeleri birleştirin.</li>
+                        <li>Zeytinyağı, limon ve nar ekşisi sosunu döküp karıştırın.</li>
+                        <li>Üzerine ceviz içlerini serperek servis edin.</li>
+                    </ol>
+                    <p><strong>Püf Noktası:</strong> Sosu servis yapmadan hemen önce dökerseniz yeşillikler diri kalır.</p>
+                </div>
+                <button class="show-more-btn" onclick="toggleRecipeDetails(this)">Daha Fazla Göster</button>
+            </article>
+
+            <article id="ev-yapimi-limonata" class="recipe-card">
+                <div class="recipe-badge">İçecek</div>
+                <img src="img/yemek5.jpg" alt="Ev Yapımı Limonata">
+                <h3>Nane Ferahlığında Limonata</h3>
+                <div class="recipe-summary">
+                    <p><strong>Malzemeler:</strong> 4 adet limon, 1 su bardağı şeker, taze nane, soğuk su, buz</p>
+                    <p><strong>Süre:</strong> 20 dakika</p>
+                </div>
+                <div class="recipe-details">
+                    <h4>Yapılışı:</h4>
+                    <ol>
+                        <li>Limonların kabuklarını rendenin ince tarafıyla rendeleyin.</li>
+                        <li>Rendelenmiş kabukları şekerle birlikte aroması çıkana kadar yoğurun.</li>
+                        <li>Limonların suyunu sıkıp şekerli karışıma ekleyin.</li>
+                        <li>Suyu ekleyip şeker eriyene kadar karıştırın ve süzgeçten geçirin.</li>
+                        <li>Taze nane yaprakları ve buz ile servis yapın.</li>
+                    </ol>
+                    <p><strong>Püf Noktası:</strong> Kabukları rendelerken beyaz kısımları almamaya dikkat edin, acı tat verebilir.</p>
+                </div>
+                <button class="show-more-btn" onclick="toggleRecipeDetails(this)">Daha Fazla Göster</button>
+            </article>
+
+            <article id="sebzeli-kis" class="recipe-card">
+                <div class="recipe-badge">Gurme</div>
+                <img src="img/yemek6.jpg" alt="Sebzeli Kiş">
+                <h3>Renkli Sebzeli Kiş</h3>
+                <div class="recipe-summary">
+                    <p><strong>Malzemeler:</strong> Milföy hamuru, ıspanak, mantar, krema, yumurta, kaşar peyniri</p>
+                    <p><strong>Süre:</strong> 50 dakika</p>
+                </div>
+                <div class="recipe-details">
+                    <h4>Yapılışı:</h4>
+                    <ol>
+                        <li>Tart kalıbına hamuru yayın ve çatalla delikler açın.</li>
+                        <li>Ispanak ve mantarları tavada suyunu çekene kadar soteleyin.</li>
+                        <li>Bir kapta yumurta ve kremayı çırpın, sebzelerle karıştırın.</li>
+                        <li>Karışımı hamurun üzerine dökün ve peyniri serpin.</li>
+                        <li>180 derece fırında üzeri kızarana kadar pişirin.</li>
+                    </ol>
+                    <p><strong>Püf Noktası:</strong> Hamurun tabanının kıtır olması için önceden 10 dakika boş pişirebilirsiniz.</p>
+                </div>
+                <button class="show-more-btn" onclick="toggleRecipeDetails(this)">Daha Fazla Göster</button>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Lezzet Dünyası - Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
